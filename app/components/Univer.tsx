@@ -7,7 +7,7 @@ import "@univerjs/sheets-formula/lib/index.css";
 import "@univerjs/sheets-numfmt/lib/index.css";
 // import './index.css';
 
-import { LocaleType, LogLevel, Univer } from "@univerjs/core";
+import { Univer } from "@univerjs/core";
 import { defaultTheme } from "@univerjs/design";
 import { UniverDocsPlugin } from "@univerjs/docs";
 import { UniverDocsUIPlugin } from "@univerjs/docs-ui";
@@ -30,8 +30,6 @@ const UniverSheet = function () {
     }
     const univer = new Univer({
       theme: defaultTheme,
-      locale: LocaleType.ZH_CN,
-      logLevel: LogLevel.VERBOSE,
     });
     
     // core plugins
@@ -43,7 +41,6 @@ const UniverSheet = function () {
     univer.registerPlugin(UniverUIPlugin, {
       container: containerRef.current,
       header: true,
-      toolbar: true,
       footer: true,
     });
     univer.registerPlugin(UniverSheetsPlugin);
@@ -59,7 +56,7 @@ const UniverSheet = function () {
   }, []);
 
   return (
-      <div style={{ width: '100vw', height: '100vh' }} ref={containerRef} />
+    <div style={{ width: '100vw', height: '100vh' }} ref={containerRef} />
   );
 };
 
