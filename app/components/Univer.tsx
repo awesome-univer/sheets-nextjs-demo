@@ -6,7 +6,7 @@ import "@univerjs/sheets-ui/lib/index.css";
 import "@univerjs/sheets-formula/lib/index.css";
 import "@univerjs/sheets-numfmt/lib/index.css";
 
-import { Univer, UniverInstanceType } from "@univerjs/core";
+import { LocaleType, Univer, UniverInstanceType } from "@univerjs/core";
 import { defaultTheme } from "@univerjs/design";
 import { UniverDocsPlugin } from "@univerjs/docs";
 import { UniverDocsUIPlugin } from "@univerjs/docs-ui";
@@ -18,6 +18,7 @@ import { UniverSheetsNumfmtPlugin } from "@univerjs/sheets-numfmt";
 import { UniverSheetsUIPlugin } from "@univerjs/sheets-ui";
 import { UniverUIPlugin } from "@univerjs/ui";
 import { useEffect, useRef } from "react";
+import { enUS } from 'univer:locales'
 
 const UniverSheet = function () {
   const containerRef = useRef(null);
@@ -28,6 +29,10 @@ const UniverSheet = function () {
     }
     const univer = new Univer({
       theme: defaultTheme,
+      locale: LocaleType.EN_US,
+      locales: {
+        [LocaleType.EN_US]: enUS
+      }
     });
     
     // core plugins

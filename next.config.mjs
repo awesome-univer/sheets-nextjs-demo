@@ -1,12 +1,13 @@
+import { UniverPlugin } from '@univerjs/webpack-plugin'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    webpack: (config, { isServer }) => {
-      if (!isServer) {
-        config.resolve.fallback = { fs: false, path: false }
-      }
-  
-      return config
-    },
+  reactStrictMode: false,
+  webpack: (config, { isServer }) => {
+    config.plugins.push(new UniverPlugin())
+
+    return config
+  },
 };
 
 export default nextConfig;
