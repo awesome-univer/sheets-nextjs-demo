@@ -18,6 +18,7 @@ import { UniverSheetsNumfmtPlugin } from "@univerjs/sheets-numfmt";
 import { UniverSheetsUIPlugin } from "@univerjs/sheets-ui";
 import { UniverUIPlugin } from "@univerjs/ui";
 import { useEffect, useRef } from "react";
+
 import { enUS } from 'univer:locales'
 
 const UniverSheet = function () {
@@ -39,8 +40,6 @@ const UniverSheet = function () {
     univer.registerPlugin(UniverRenderEnginePlugin);
     univer.registerPlugin(UniverUIPlugin, {
       container: containerRef.current,
-      header: true,
-      footer: true,
     });
 
     univer.registerPlugin(UniverDocsPlugin, {
