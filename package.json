@@ -14,26 +14,26 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "@univerjs/core": "0.2.5",
-    "@univerjs/design": "0.2.5",
-    "@univerjs/docs": "0.2.5",
-    "@univerjs/docs-ui": "0.2.5",
-    "@univerjs/engine-formula": "0.2.5",
-    "@univerjs/engine-render": "0.2.5",
-    "@univerjs/sheets": "0.2.5",
-    "@univerjs/sheets-formula": "0.2.5",
-    "@univerjs/sheets-numfmt": "0.2.5",
-    "@univerjs/sheets-ui": "0.2.5",
-    "@univerjs/ui": "0.2.5",
-    "next": "14.2.5",
+    "@univerjs/core": "^0.2.15",
+    "@univerjs/design": "^0.2.15",
+    "@univerjs/docs": "^0.2.15",
+    "@univerjs/docs-ui": "^0.2.15",
+    "@univerjs/engine-formula": "^0.2.15",
+    "@univerjs/engine-render": "^0.2.15",
+    "@univerjs/sheets": "^0.2.15",
+    "@univerjs/sheets-formula": "^0.2.15",
+    "@univerjs/sheets-numfmt": "^0.2.15",
+    "@univerjs/sheets-ui": "^0.2.15",
+    "@univerjs/ui": "^0.2.15",
+    "next": "14.2.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "^18.3.3",
+    "@types/node": "^22.7.2",
+    "@types/react": "^18.3.9",
     "@types/react-dom": "^18.3.0",
     "@univerjs/webpack-plugin": "^0.5.0",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.2"
   }
 }
