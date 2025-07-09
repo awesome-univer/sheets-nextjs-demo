@@ -60,7 +60,7 @@ devDependencies:
     version: 18.3.0
   '@univerjs/webpack-plugin':
     specifier: ^0.5.1
-    version: 0.5.1(webpack@5.99.9)
+    version: 0.5.1(webpack@5.100.0)
   typescript:
     specifier: ^5.6.2
     version: 5.6.2
@@ -143,7 +143,7 @@ packages:
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.15
-      '@types/node': 22.16.0
+      '@types/node': 22.16.2
     dev: false
 
   /@grpc/proto-loader@0.7.15:
@@ -416,8 +416,8 @@ packages:
     resolution: {integrity: sha512-w9iWudx1XWOHW5lQRS9iKpK/XuRhnN+0T7HvdCCd802FYkT1AMTnxndJHGrNJwRoRHkslGr4S29tjm1cT7x/7w==}
     dev: false
 
-  /@types/node@22.16.0:
-    resolution: {integrity: sha512-B2egV9wALML1JCpv3VQoQ+yesQKAmNMBIAY7OteVrikcOcAkWm+dGL6qpeCktPjAv6N1JLnhbNiqS35UpFyBsQ==}
+  /@types/node@22.16.2:
+    resolution: {integrity: sha512-Cdqa/eJTvt4fC4wmq1Mcc0CPUjp/Qy2FGqLza3z3pKymsI969TcZ54diNJv8UYUgeWxyb8FSbCkhdR6WqmUFhA==}
     dependencies:
       undici-types: 6.21.0
 
@@ -768,13 +768,13 @@ packages:
       - typescript
     dev: false
 
-  /@univerjs/webpack-plugin@0.5.1(webpack@5.99.9):
+  /@univerjs/webpack-plugin@0.5.1(webpack@5.100.0):
     resolution: {integrity: sha512-CewBhgiwdkNnNBAqzAmrsd6k8PI2ULLVcOxW937gJYYZ4pFwhxG3BCRbe//dX1/fR1i8kkocI/pmKLKVxSWTkw==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
-      webpack: 5.99.9
+      webpack: 5.100.0
     dev: true
 
   /@vue/compiler-core@3.5.17:
@@ -985,6 +985,15 @@ packages:
 
   /@xtuc/long@4.2.2:
     resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
+    dev: true
+
+  /acorn-import-phases@1.0.3(acorn@8.15.0):
+    resolution: {integrity: sha512-jtKLnfoOzm28PazuQ4dVBcE9Jeo6ha1GAJvq3N0LlNOszmTfx+wSycBehn+FN0RnyeR77IBxN/qVYMw0Rlj0Xw==}
+    engines: {node: '>=10.13.0'}
+    peerDependencies:
+      acorn: ^8.14.0
+    dependencies:
+      acorn: 8.15.0
     dev: true
 
   /acorn@8.15.0:
@@ -1262,7 +1271,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 22.16.0
+      '@types/node': 22.16.2
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -1497,7 +1506,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.16.0
+      '@types/node': 22.16.2
       long: 5.3.2
     dev: false
 
@@ -1989,7 +1998,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser-webpack-plugin@5.3.14(webpack@5.99.9):
+  /terser-webpack-plugin@5.3.14(webpack@5.100.0):
     resolution: {integrity: sha512-vkZjpUjb6OMS7dhV+tILUW6BhpDR7P2L/aQSAv+Uwk+m8KATX9EccViHTJR2qDtACKPIYndLGCyl3FMo+r2LMw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -2010,7 +2019,7 @@ packages:
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
       terser: 5.43.1
-      webpack: 5.99.9
+      webpack: 5.100.0
     dev: true
 
   /terser@5.43.1:
@@ -2108,8 +2117,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack@5.99.9:
-    resolution: {integrity: sha512-brOPwM3JnmOa+7kd3NsmOUOwbDAj8FT9xDsG3IW0MgbN9yZV7Oi/s/+MNQ/EcSMqw7qfoRyXPoeEWT8zLVdVGg==}
+  /webpack@5.100.0:
+    resolution: {integrity: sha512-H8yBSBTk+BqxrINJnnRzaxU94SVP2bjd7WmA+PfCphoIdDpeQMJ77pq9/4I7xjLq38cB1bNKfzYPZu8pB3zKtg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -2125,6 +2134,7 @@ packages:
       '@webassemblyjs/wasm-edit': 1.14.1
       '@webassemblyjs/wasm-parser': 1.14.1
       acorn: 8.15.0
+      acorn-import-phases: 1.0.3(acorn@8.15.0)
       browserslist: 4.25.1
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.18.2
@@ -2139,7 +2149,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 4.3.2
       tapable: 2.2.2
-      terser-webpack-plugin: 5.3.14(webpack@5.99.9)
+      terser-webpack-plugin: 5.3.14(webpack@5.100.0)
       watchpack: 2.4.4
       webpack-sources: 3.3.3
     transitivePeerDependencies:
