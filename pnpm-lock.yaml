@@ -10,7 +10,7 @@ dependencies:
     version: 0.2.15(@grpc/grpc-js@1.9.14)(react@18.3.1)(rxjs@7.8.2)
   '@univerjs/design':
     specifier: ^0.2.15
-    version: 0.2.15(clsx@2.1.1)(dayjs@1.11.18)(react-dom@18.3.1)(react@18.3.1)
+    version: 0.2.15(clsx@2.1.1)(dayjs@1.11.19)(react-dom@18.3.1)(react@18.3.1)
   '@univerjs/docs':
     specifier: ^0.2.15
     version: 0.2.15(@univerjs/core@0.2.15)(@univerjs/engine-render@0.2.15)(rxjs@7.8.2)
@@ -463,7 +463,7 @@ packages:
       - '@grpc/grpc-js'
     dev: false
 
-  /@univerjs/design@0.2.15(clsx@2.1.1)(dayjs@1.11.18)(react-dom@18.3.1)(react@18.3.1):
+  /@univerjs/design@0.2.15(clsx@2.1.1)(dayjs@1.11.19)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-OwRA9Q7JUHwQipYOgNdpx0sl2VB6z9RrCt6fCAZ8KQ95Ssf3qQ9U0p/z/Y36g5kRn3LL39idY6ehsdX0yYVLrw==}
     peerDependencies:
       clsx: '>=2.0.0'
@@ -476,13 +476,13 @@ packages:
       '@types/react-mentions': 4.4.0
       '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
       clsx: 2.1.1
-      dayjs: 1.11.18
+      dayjs: 1.11.19
       rc-dialog: 9.6.0(react-dom@18.3.1)(react@18.3.1)
       rc-dropdown: 4.2.0(react-dom@18.3.1)(react@18.3.1)
       rc-input: 1.6.3(react-dom@18.3.1)(react@18.3.1)
       rc-input-number: 9.2.0(react-dom@18.3.1)(react@18.3.1)
       rc-menu: 9.15.1(react-dom@18.3.1)(react@18.3.1)
-      rc-picker: 4.6.15(dayjs@1.11.18)(react-dom@18.3.1)(react@18.3.1)
+      rc-picker: 4.6.15(dayjs@1.11.19)(react-dom@18.3.1)(react@18.3.1)
       rc-segmented: 2.5.0(react-dom@18.3.1)(react@18.3.1)
       rc-select: 14.15.2(react-dom@18.3.1)(react@18.3.1)
       rc-textarea: 1.8.2(react-dom@18.3.1)(react@18.3.1)
@@ -513,7 +513,7 @@ packages:
       rxjs: '>=7.0.0'
     dependencies:
       '@univerjs/core': 0.2.15(@grpc/grpc-js@1.9.14)(react@18.3.1)(rxjs@7.8.2)
-      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.18)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.19)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/docs': 0.2.15(@univerjs/core@0.2.15)(@univerjs/engine-render@0.2.15)(rxjs@7.8.2)
       '@univerjs/engine-render': 0.2.15(@univerjs/core@0.2.15)(rxjs@7.8.2)
       '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
@@ -618,7 +618,7 @@ packages:
       rxjs: '>=7.0.0'
     dependencies:
       '@univerjs/core': 0.2.15(@grpc/grpc-js@1.9.14)(react@18.3.1)(rxjs@7.8.2)
-      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.18)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.19)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/docs': 0.2.15(@univerjs/core@0.2.15)(@univerjs/engine-render@0.2.15)(rxjs@7.8.2)
       '@univerjs/docs-ui': 0.2.15(@univerjs/core@0.2.15)(@univerjs/design@0.2.15)(@univerjs/docs@0.2.15)(@univerjs/engine-render@0.2.15)(@univerjs/ui@0.2.15)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.2)
       '@univerjs/engine-formula': 0.2.15(@univerjs/core@0.2.15)(@univerjs/rpc@0.2.15)(rxjs@7.8.2)
@@ -650,7 +650,7 @@ packages:
       rxjs: '>=7.0.0'
     dependencies:
       '@univerjs/core': 0.2.15(@grpc/grpc-js@1.9.14)(react@18.3.1)(rxjs@7.8.2)
-      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.18)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.19)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-formula': 0.2.15(@univerjs/core@0.2.15)(@univerjs/rpc@0.2.15)(rxjs@7.8.2)
       '@univerjs/engine-numfmt': 0.2.15
       '@univerjs/engine-render': 0.2.15(@univerjs/core@0.2.15)(rxjs@7.8.2)
@@ -682,7 +682,7 @@ packages:
       rxjs: '>=7.0.0'
     dependencies:
       '@univerjs/core': 0.2.15(@grpc/grpc-js@1.9.14)(react@18.3.1)(rxjs@7.8.2)
-      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.18)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.19)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/docs': 0.2.15(@univerjs/core@0.2.15)(@univerjs/engine-render@0.2.15)(rxjs@7.8.2)
       '@univerjs/docs-ui': 0.2.15(@univerjs/core@0.2.15)(@univerjs/design@0.2.15)(@univerjs/docs@0.2.15)(@univerjs/engine-render@0.2.15)(@univerjs/ui@0.2.15)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.2)
       '@univerjs/engine-formula': 0.2.15(@univerjs/core@0.2.15)(@univerjs/rpc@0.2.15)(rxjs@7.8.2)
@@ -743,7 +743,7 @@ packages:
       rxjs: '>=7.0.0'
     dependencies:
       '@univerjs/core': 0.2.15(@grpc/grpc-js@1.9.14)(react@18.3.1)(rxjs@7.8.2)
-      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.18)(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/design': 0.2.15(clsx@2.1.1)(dayjs@1.11.19)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-formula': 0.2.15(@univerjs/core@0.2.15)(@univerjs/rpc@0.2.15)(rxjs@7.8.2)
       '@univerjs/engine-render': 0.2.15(@univerjs/core@0.2.15)(rxjs@7.8.2)
       '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
@@ -1036,8 +1036,8 @@ packages:
       color-convert: 2.0.1
     dev: false
 
-  /baseline-browser-mapping@2.8.21:
-    resolution: {integrity: sha512-JU0h5APyQNsHOlAM7HnQnPToSDQoEBZqzu/YBlqDnEeymPnZDREeXJA3KBMQee+dKteAxZ2AtvQEvVYdZf241Q==}
+  /baseline-browser-mapping@2.8.22:
+    resolution: {integrity: sha512-/tk9kky/d8T8CTXIQYASLyhAxR5VwL3zct1oAoVTaOUHwrmsGnfbRwNdEq+vOl2BN8i3PcDdP0o4Q+jjKQoFbQ==}
     hasBin: true
     dev: true
 
@@ -1046,9 +1046,9 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      baseline-browser-mapping: 2.8.21
-      caniuse-lite: 1.0.30001751
-      electron-to-chromium: 1.5.243
+      baseline-browser-mapping: 2.8.22
+      caniuse-lite: 1.0.30001752
+      electron-to-chromium: 1.5.244
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.27.0)
     dev: true
@@ -1068,8 +1068,8 @@ packages:
     resolution: {integrity: sha512-AmE7k4dXiNKQipgn7a2xg558IRqPN3jMQY/rOsbxDhrd0tyChwbITBfiwtnqz8bi2M5mIWbxAYBvk7W7QBUS2g==}
     dev: false
 
-  /caniuse-lite@1.0.30001751:
-    resolution: {integrity: sha512-A0QJhug0Ly64Ii3eIqHu5X51ebln3k4yTUkY1j8drqpWHVreg/VLijN48cZ1bYPiqOQuqpkIKnzr/Ul8V+p6Cw==}
+  /caniuse-lite@1.0.30001752:
+    resolution: {integrity: sha512-vKUk7beoukxE47P5gcVNKkDRzXdVofotshHwfR9vmpeFKxmI5PBpgOMC18LUJUA/DvJ70Y7RveasIBraqsyO/g==}
     dev: true
 
   /chrome-trace-event@1.0.4:
@@ -1134,8 +1134,8 @@ packages:
   /csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
-  /dayjs@1.11.18:
-    resolution: {integrity: sha512-zFBQ7WFRvVRhKcWoUh+ZA1g2HVgUbsZm9sbddh8EC5iv93sui8DVVz1Npvz+r6meo9VKfa8NyLWBsQK1VvIKPA==}
+  /dayjs@1.11.19:
+    resolution: {integrity: sha512-t5EcLVS6QPBNqM2z8fakk/NKel+Xzshgt8FFKAn+qwlD1pzZWxh0nVCrvFK7ZDb6XucZeF9z8C7CBWTRIVApAw==}
     dev: false
 
   /decimal.js@10.4.3:
@@ -1149,8 +1149,8 @@ packages:
       csstype: 3.1.3
     dev: false
 
-  /electron-to-chromium@1.5.243:
-    resolution: {integrity: sha512-ZCphxFW3Q1TVhcgS9blfut1PX8lusVi2SvXQgmEEnK4TCmE1JhH2JkjJN+DNt0pJJwfBri5AROBnz2b/C+YU9g==}
+  /electron-to-chromium@1.5.244:
+    resolution: {integrity: sha512-OszpBN7xZX4vWMPJwB9illkN/znA8M36GQqQxi6MNy9axWxhOfJyZZJtSLQCpEFLHP2xK33BiWx9aIuIEXVCcw==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -1630,7 +1630,7 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /rc-picker@4.6.15(dayjs@1.11.18)(react-dom@18.3.1)(react@18.3.1):
+  /rc-picker@4.6.15(dayjs@1.11.19)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-OWZ1yrMie+KN2uEUfYCfS4b2Vu6RC1FWwNI0s+qypsc3wRt7g+peuZKVIzXCTaJwyyZruo80+akPg2+GmyiJjw==}
     engines: {node: '>=8.x'}
     peerDependencies:
@@ -1653,7 +1653,7 @@ packages:
       '@babel/runtime': 7.25.6
       '@rc-component/trigger': 2.2.3(react-dom@18.3.1)(react@18.3.1)
       classnames: 2.5.1
-      dayjs: 1.11.18
+      dayjs: 1.11.19
       rc-overflow: 1.3.2(react-dom@18.3.1)(react@18.3.1)
       rc-resize-observer: 1.4.0(react-dom@18.3.1)(react@18.3.1)
       rc-util: 5.43.0(react-dom@18.3.1)(react@18.3.1)
