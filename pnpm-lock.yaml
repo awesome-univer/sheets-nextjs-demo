@@ -1036,8 +1036,8 @@ packages:
       color-convert: 2.0.1
     dev: false
 
-  /baseline-browser-mapping@2.8.22:
-    resolution: {integrity: sha512-/tk9kky/d8T8CTXIQYASLyhAxR5VwL3zct1oAoVTaOUHwrmsGnfbRwNdEq+vOl2BN8i3PcDdP0o4Q+jjKQoFbQ==}
+  /baseline-browser-mapping@2.8.23:
+    resolution: {integrity: sha512-616V5YX4bepJFzNyOfce5Fa8fDJMfoxzOIzDCZwaGL8MKVpFrXqfNUoIpRn9YMI5pXf/VKgzjB4htFMsFKKdiQ==}
     hasBin: true
     dev: true
 
@@ -1046,7 +1046,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      baseline-browser-mapping: 2.8.22
+      baseline-browser-mapping: 2.8.23
       caniuse-lite: 1.0.30001752
       electron-to-chromium: 1.5.244
       node-releases: 2.0.27
